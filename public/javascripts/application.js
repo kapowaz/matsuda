@@ -1,7 +1,7 @@
 $(document).ready(function() {
   
   // load in the templater with a simple template for initial load-time
-  templater = new Matsuda.Templater({
+  var templater = new Matsuda.Templater({
     templates: [{ name: 'home', resource: '/templates/home.mustache' }],
     contexts:  [{ name: 'home', resource: '/json/home.json' }]
   });
