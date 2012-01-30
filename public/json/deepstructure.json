@@ -1,0 +1,14 @@
+{
+  "massive": {
+    "structure": [
+      {
+        "type": "foo",
+        "name": "something"
+      },
+      {
+        "type": "bar",
+        "name": "something else"
+      }
+    ]
+  }
+}
