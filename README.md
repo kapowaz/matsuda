@@ -23,4 +23,4 @@ You can choose not to initialise any templates at this point, or you can add the
 Alternatively, you can just create an instance then render templates and contexts as you go:
 
     var templater = new Matsuda.Templater();
-    templater.render({name: 'home', resource: '/templates/home.mustache'}, {name: 'home', resource: '/json/home.json'}, function(result){});
+    templater.render({name: 'home', resource: '/templates/home.mustache'}, {name: 'home', resource: '/json/home.json'}, function(result){ $('body').append(result); });
