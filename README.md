@@ -1,9 +1,9 @@
 Matsuda
 =======
 
-Matsuda, trainer to Hogan.js
+Matsuda, trainer to [Hogan.js](http://twitter.github.com/hogan.js/)
 
-An experimental mechanism for making asynchronous requests using jQuery to populate templates and variable contexts to use with Hogan.js's mustache templating library, client-side.
+An experimental mechanism for making asynchronous requests using jQuery to populate templates and variable contexts to use with [Hogan.js](http://twitter.github.com/hogan.js/)'s [mustache](http://mustache.github.com/) templating library, client-side.
 
 Usage
 -----
