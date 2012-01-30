@@ -80,7 +80,9 @@ var Matsuda = {};
       }
 
       // use a timestamp to generate a unique namespace for this particular render call
-      var namespace = "matsuda.templater.render.loaded." + new Date().getTime();
+      var namespace = "nikex.components.templater.render.loaded." + 
+        'template:' + (typeof template == "string" ? template : template.name) + '.' +
+        'context:' + (typeof context == "string" ? context : context.name) + '.' + new Date().getTime();
 
       // fired whenever any single load dependency completes loading
       $(document).bind(namespace, function(){
